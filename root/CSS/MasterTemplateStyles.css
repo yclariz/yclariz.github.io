@@ -1,0 +1,25 @@
+/*general*/
+:root {
+  overscroll-behavior: none;}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body {
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  body {
+        background-image: url("../assets/paper_bg_tile_mobile.jpg");
+        background-repeat: repeat-y;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: 100% 100vh;
+      }
+}
